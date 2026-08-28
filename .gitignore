@@ -1,0 +1,41 @@
+# Środowiska i cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Dane i modele
+hyperband/
+models/
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.onnx
+*.safetensors
+
+# Logi i śledzenie eksperymentów
+logs/
+*.log
+runs/
+mlruns/
+wandb/
+.ipynb_checkpoints/
+
+# Sekrety i konfiguracje
+.env
+*.pem
+secrets.json
+
+# System
+.DS_Store
+Thumbs.db
+
+# Formaty zapisu Keras i TensorFlow
+*.h5
+*.weights.h5
+*.keras
+*.ckpt
+*.ckpt.*
+checkpoint
